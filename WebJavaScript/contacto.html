@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="icon" href="./imagenes/icono.PNG">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+</head>
+
+<body onload="startTime()">
+  <header>
+    <h1>Día del Libro</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="libros.html">Libros recomendados</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="galeria.html">Galeria de imagenes</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contacto</h1>
+    <p>¡Contáctanos para cualquier consulta o comentario!</p>
+    <div class="imagen-contacto">
+
+    </div>
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+      <button id="alertButton">Mostrar alerta</button>
+    </form>
+
+  </main>
+  <footer id="contacto-footer">
+    <div class="contenido-final">
+      <p>&copy; 2023 Derechos reservados por Alejandro Menéndez Cloux</p>
+      <div id="clockdate">
+        <div class="clockdate-wrapper">
+          <div id="clock"></div>
+          <div id="date"></div>
+        </div>
+      </div>
+      <div class="redes-sociales">
+        <div class="botones">
+          <button id="facebook">Facebook</button>
+          <button id="twitter">Twitter</button>
+          <button id="instagram">Instagram</button>
+          <button id="github">GitHub</button>
+        </div>
+    </div>
+</div>
+  </footer>
+  <script src="java.js"></script>
+</body>
+
+</html>
